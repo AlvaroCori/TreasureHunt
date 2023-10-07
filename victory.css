@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+  *{
+    background-image: url('./victory.png');
+    background-size: auto;
+  }
+
+  body {
+    font-family: 'Rocher';
+    text-align: center;
+    font-size: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    margin-top: 200px;
+    padding: 20px;
+    background-image: url('./coin-background.png');
+  }
+  
+  @font-palette-values --Mint {
+    font-family: Rocher;
+    base-palette: 7;
+  }
+  
+  .mint {
+    font-palette: --Mint;
+  }
+
+  button{
+    font-size: 40px;
+    color: white;
+    border-radius: 8px;
+    background: rgba(92, 92, 92,0.7);
+    width: 300px;
+    height: 100px;
+  }
+  #title{
+    border-radius: 16px;
+    border: 2px solid rgb(233, 255, 233);
+  }
+  button:hover{
+    background: rgba(92, 92, 92,1);
+    font-weight: bold;
+  }
+  button:focus{
+    color:rgb(238, 238, 238);
+    font-size: bold;
+    background-color: black;
+  }
+#container{
+  margin-top: 40px;
+}
+.image-type{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 1px;
+  margin-right: 1px;
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgba(129, 37, 0, 0.8);
+  background-image: url('./coin-background.png');
+  border-radius: 16px;
+}
+
